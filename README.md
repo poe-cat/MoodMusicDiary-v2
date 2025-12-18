@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="icon_neon_brain.png" width="128" />
+</p>
+
+
 # Mood Music Diary
 
 Mood Music Diary is an Android application for mood-based music discovery combined with personal annotation.
