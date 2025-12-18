@@ -1,0 +1,67 @@
+# ===== Android / Gradle =====
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Kotlin =====
+.kotlin/
+
+# ===== Generated files =====
+bin/
+gen/
+
+# ===== APK / AAB =====
+*.apk
+*.aab
+
+# ===== Secrets =====
+**/apikeys.xml
+**/secrets.xml
+
+# ===== Firebase =====
+google-services.json
+
+# ===== NDK =====
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# ===== Testing =====
+out/
+
+# Android Profiling
+*.hprof
