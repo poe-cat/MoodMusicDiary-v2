@@ -39,6 +39,37 @@ The user can save any track together with a personal note:
 Notes are persisted using a local Room database.
 Mood selection is restored between sessions using local storage.
 
+
+## Application Screens
+
+### Mood selection and recommendations
+
+![Mood selection screen](screenshots/mood.png)
+
+The main screen allows the user to select a mood (e.g. Calm, Sad, Happy).
+Based on the selected mood, the application queries the Last.fm API using a predefined set of listener-generated tags and displays a list of recommended tracks.
+Each mood is visually distinguished using a dedicated color to reinforce its emotional context.
+
+---
+
+### Track details
+
+![Track details screen](screenshots/details.png)
+
+This screen displays extended metadata for a selected track, including artist information, album artwork, listener count, play count, and top listener tags.
+The purpose of this screen is to provide transparency and explain why a given track appears in a specific mood-based recommendation.
+
+---
+
+### Notes (music diary)
+
+![Notes screen](screenshots/notes.png)
+
+The notes screen presents a list of tracks saved by the user together with personal annotations.
+Notes are stored locally using a Room database and can be edited or deleted.
+This feature allows the user to treat music discovery as a reflective process rather than a purely consumptive one.
+
+
 ---
 
 ## Technical Stack
