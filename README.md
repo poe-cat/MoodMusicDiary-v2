@@ -84,7 +84,7 @@ https://www.last.fm/api
 ## Building and Running
 
 1. Clone the repository:
-   git clone https://github.com/your-username/mood-music-diary.git
+   git clone https://github.com/poe-cat/MoodMusicDiary-v2
 
 2. Open the project in Android Studio
 
